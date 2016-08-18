@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Is String Permutation of a Palindrome?
+        Chapter1.isPermutationOfPalindrome("testing")
+        Chapter1.isPermutationOfPalindrome("aba")
+        Chapter1.isPermutationOfPalindrome("aabbc")
+        Chapter1.isPermutationOfPalindrome("aaaa")
+        Chapter1.isPermutationOfPalindrome("aabbccaa")
+        Chapter1.isPermutationOfPalindrome("aabbdccaa")
+        Chapter1.isPermutationOfPalindrome("aabbdddcaa")
+        Chapter1.isPermutationOfPalindrome("aabbdcaa")
     }
 
     override func didReceiveMemoryWarning() {
