@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Arrays and Strings
+
 class Chapter1 {
     
     class func isPermutationOfPalindrome(string: String) -> Bool {
